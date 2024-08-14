@@ -1,0 +1,972 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c210ac6b-35b0-45e0-8ab8-e4fd419b1a0a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Comparator:LM2901"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM2901"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2901_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM2901_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM2901_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM2901_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM2901_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM2901")
+		(at 113.03 86.36 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d9be407-afe1-45cc-90ee-7aa320999258")
+		(property "Reference" "U5"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2901"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+		)
+		(pin "12"
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+		)
+		(pin "9"
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+		)
+		(pin "5"
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+		)
+		(pin "4"
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+		)
+		(pin "13"
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+		)
+		(pin "7"
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+		)
+		(pin "14"
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+		)
+		(pin "10"
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+		)
+		(pin "11"
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+		)
+		(pin "6"
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+		)
+		(pin "2"
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+		)
+		(pin "8"
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+		)
+		(pin "3"
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802/5262fa76-e71c-41c2-ad8d-d096f0d1b0c7"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM2901")
+		(at 111.76 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f2ed12f-76da-42b1-90dc-ca52c895bce9")
+		(property "Reference" "U5"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2901"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+		)
+		(pin "12"
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+		)
+		(pin "9"
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+		)
+		(pin "5"
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+		)
+		(pin "4"
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+		)
+		(pin "13"
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+		)
+		(pin "7"
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+		)
+		(pin "14"
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+		)
+		(pin "10"
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+		)
+		(pin "11"
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+		)
+		(pin "6"
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+		)
+		(pin "2"
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+		)
+		(pin "8"
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+		)
+		(pin "3"
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802/5262fa76-e71c-41c2-ad8d-d096f0d1b0c7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM2901")
+		(at 113.03 105.41 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b4ce03b-29f8-4c28-9bfb-21b03e0fee81")
+		(property "Reference" "U5"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2901"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+		)
+		(pin "12"
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+		)
+		(pin "9"
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+		)
+		(pin "5"
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+		)
+		(pin "4"
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+		)
+		(pin "13"
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+		)
+		(pin "7"
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+		)
+		(pin "14"
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+		)
+		(pin "10"
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+		)
+		(pin "11"
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+		)
+		(pin "6"
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+		)
+		(pin "2"
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+		)
+		(pin "8"
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+		)
+		(pin "3"
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802/5262fa76-e71c-41c2-ad8d-d096f0d1b0c7"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM2901")
+		(at 110.49 67.31 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0992cc-0c7d-4e9b-abf6-a9e10cc66843")
+		(property "Reference" "U5"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2901"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+		)
+		(pin "12"
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+		)
+		(pin "9"
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+		)
+		(pin "5"
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+		)
+		(pin "4"
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+		)
+		(pin "13"
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+		)
+		(pin "7"
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+		)
+		(pin "14"
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+		)
+		(pin "10"
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+		)
+		(pin "11"
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+		)
+		(pin "6"
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+		)
+		(pin "2"
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+		)
+		(pin "8"
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+		)
+		(pin "3"
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802/5262fa76-e71c-41c2-ad8d-d096f0d1b0c7"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM2901")
+		(at 115.57 125.73 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7a2fda-ab43-4166-b056-674274cf1c6c")
+		(property "Reference" "U5"
+			(at 114.3 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM2901"
+			(at 114.3 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+		)
+		(pin "12"
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+		)
+		(pin "9"
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+		)
+		(pin "5"
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+		)
+		(pin "4"
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+		)
+		(pin "13"
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+		)
+		(pin "7"
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+		)
+		(pin "14"
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+		)
+		(pin "10"
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+		)
+		(pin "11"
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+		)
+		(pin "6"
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+		)
+		(pin "2"
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+		)
+		(pin "8"
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+		)
+		(pin "3"
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802/5262fa76-e71c-41c2-ad8d-d096f0d1b0c7"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+)

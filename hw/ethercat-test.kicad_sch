@@ -1,0 +1,130 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fabe3684-1e4c-4e11-84a8-df60f783d802")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 28.575 59.69)
+		(size 31.75 20.955)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e52d350-eaf0-4b09-bbfd-8a7dda8db78e")
+		(property "Sheetname" "MCU"
+			(at 28.575 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 28.575 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 95.885)
+		(size 33.655 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5262fa76-e71c-41c2-ad8d-d096f0d1b0c7")
+		(property "Sheetname" "Sincos encoder"
+			(at 29.21 95.1734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "encoder.kicad_sch"
+			(at 29.21 120.5996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.035 24.13)
+		(size 33.02 20.955)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e626835d-93e0-48c3-acb5-75435f7342db")
+		(property "Sheetname" "Ethercat"
+			(at 26.035 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethercat.kicad_sch"
+			(at 26.035 45.6696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ethercat-test"
+				(path "/fabe3684-1e4c-4e11-84a8-df60f783d802"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
