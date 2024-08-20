@@ -500,6 +500,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
 		)
@@ -604,47 +622,65 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5b")
 		)
 		(pin "12"
-			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb13")
 		)
 		(pin "9"
-			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f3")
 		)
 		(pin "5"
-			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b3")
 		)
 		(pin "4"
-			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f883")
 		)
 		(pin "13"
-			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab71")
 		)
 		(pin "7"
-			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba9")
 		)
 		(pin "14"
-			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa331")
 		)
 		(pin "10"
-			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9b")
 		)
 		(pin "11"
-			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec90")
 		)
 		(pin "6"
-			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f70")
 		)
 		(pin "2"
-			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137b")
 		)
 		(pin "8"
-			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82c")
 		)
 		(pin "3"
-			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fd")
 		)
 		(instances
 			(project "ethercat-test"
@@ -708,47 +744,65 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5c")
 		)
 		(pin "12"
-			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb14")
 		)
 		(pin "9"
-			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f4")
 		)
 		(pin "5"
-			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b4")
 		)
 		(pin "4"
-			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f884")
 		)
 		(pin "13"
-			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab72")
 		)
 		(pin "7"
-			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65baa")
 		)
 		(pin "14"
-			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa332")
 		)
 		(pin "10"
-			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9c")
 		)
 		(pin "11"
-			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec91")
 		)
 		(pin "6"
-			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f71")
 		)
 		(pin "2"
-			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137c")
 		)
 		(pin "8"
-			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82d")
 		)
 		(pin "3"
-			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fe")
 		)
 		(instances
 			(project "ethercat-test"
@@ -812,47 +866,65 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5d")
 		)
 		(pin "12"
-			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb15")
 		)
 		(pin "9"
-			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f5")
 		)
 		(pin "5"
-			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b5")
 		)
 		(pin "4"
-			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f885")
 		)
 		(pin "13"
-			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab73")
 		)
 		(pin "7"
-			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65bab")
 		)
 		(pin "14"
-			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa333")
 		)
 		(pin "10"
-			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9d")
 		)
 		(pin "11"
-			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec92")
 		)
 		(pin "6"
-			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f72")
 		)
 		(pin "2"
-			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137d")
 		)
 		(pin "8"
-			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82e")
 		)
 		(pin "3"
-			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6ff")
 		)
 		(instances
 			(project "ethercat-test"
@@ -918,47 +990,65 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5a")
+			(uuid "e561bb08-f5c2-433d-b757-907e66b07e5e")
 		)
 		(pin "12"
-			(uuid "89194801-6868-4f90-b52f-0a712ffbbb12")
+			(uuid "89194801-6868-4f90-b52f-0a712ffbbb16")
 		)
 		(pin "9"
-			(uuid "98e7303e-2300-4334-aa62-25ab605754f2")
+			(uuid "98e7303e-2300-4334-aa62-25ab605754f6")
 		)
 		(pin "5"
-			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b2")
+			(uuid "90690b41-2463-4fac-a7d4-36fc6d5be4b6")
 		)
 		(pin "4"
-			(uuid "446a3652-d90a-467e-b4bc-8bc82659f882")
+			(uuid "446a3652-d90a-467e-b4bc-8bc82659f886")
 		)
 		(pin "13"
-			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab70")
+			(uuid "0f06d075-d999-45a4-b3b0-43d5a7dfab74")
 		)
 		(pin "7"
-			(uuid "6ba3998d-613c-4622-b073-7aae0ab65ba8")
+			(uuid "6ba3998d-613c-4622-b073-7aae0ab65bac")
 		)
 		(pin "14"
-			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa330")
+			(uuid "6f7e4c76-b847-49b2-865f-fa8f52eaa334")
 		)
 		(pin "10"
-			(uuid "ee817649-8b80-400a-b390-de91a3218f9a")
+			(uuid "ee817649-8b80-400a-b390-de91a3218f9e")
 		)
 		(pin "11"
-			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec8f")
+			(uuid "08a5c724-a70f-4ca7-955b-b40f7e19ec93")
 		)
 		(pin "6"
-			(uuid "c23d2303-5149-46fe-9264-309b8efc5f6f")
+			(uuid "c23d2303-5149-46fe-9264-309b8efc5f73")
 		)
 		(pin "2"
-			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137a")
+			(uuid "59ea8c7b-7e7b-4832-b5ca-7208c041137e")
 		)
 		(pin "8"
-			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82b")
+			(uuid "0b3ff76d-da22-408c-8b8a-c86600dfe82f")
 		)
 		(pin "3"
-			(uuid "6bf127ec-757e-4380-b2db-8379dbbda6fc")
+			(uuid "6bf127ec-757e-4380-b2db-8379dbbda700")
 		)
 		(instances
 			(project "ethercat-test"

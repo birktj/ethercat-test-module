@@ -2311,13 +2311,13 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN10" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
 					(alternate "I2S2_WS" bidirectional line)
 					(alternate "RCC_OSC_IN" bidirectional line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
-					(alternate "" input line)
 				)
 				(pin bidirectional line
 					(at -15.24 22.86 0)
@@ -4165,6 +4165,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "06f4df55-75fa-4e6c-8c43-36442aba8962")
 		)
@@ -4393,6 +4411,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -4673,6 +4709,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 32KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 135.89 92.71 0)
 			(effects
 				(font
