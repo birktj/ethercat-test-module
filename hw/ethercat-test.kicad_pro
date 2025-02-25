@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -428,7 +429,7 @@
     ],
     [
       "5262fa76-e71c-41c2-ad8d-d096f0d1b0c7",
-      "Sincos encoder"
+      "Encoder CH1"
     ]
   ],
   "text_variables": {}

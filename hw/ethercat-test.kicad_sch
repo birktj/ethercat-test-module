@@ -46,7 +46,7 @@
 	)
 	(sheet
 		(at 29.21 95.885)
-		(size 33.655 24.13)
+		(size 33.655 44.45)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +56,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5262fa76-e71c-41c2-ad8d-d096f0d1b0c7")
-		(property "Sheetname" "Sincos encoder"
+		(property "Sheetname" "Encoder CH1"
 			(at 29.21 95.1734 0)
 			(effects
 				(font
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "Sheetfile" "encoder.kicad_sch"
-			(at 29.21 120.5996 0)
+			(at 29.21 140.9196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +74,96 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "CH_A+" input
+			(at 62.865 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3644a71-8d12-43e1-9761-98770912d5d4")
+		)
+		(pin "CH_A-" input
+			(at 62.865 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fda8d327-25ed-47fa-a28f-1af7382cae52")
+		)
+		(pin "CH_A_OUT" input
+			(at 62.865 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7bdc246-f226-4ebc-b233-224da590ee96")
+		)
+		(pin "CH_B_OUT" input
+			(at 62.865 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cb40675-35ca-4332-8a74-4de121ebbcf6")
+		)
+		(pin "CH_B+" input
+			(at 62.865 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74f43ec4-8756-4dfe-9c87-2f91a2afc45a")
+		)
+		(pin "CH_B-" input
+			(at 62.865 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c40ca850-4df0-4788-b480-b0b7be9ba1a6")
+		)
+		(pin "CH_R-" input
+			(at 62.865 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84d10e89-eb25-4892-b90e-d893090f659e")
+		)
+		(pin "CH_R+" input
+			(at 62.865 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d797bb05-837b-4341-8a37-d480bf2d4ba5")
+		)
+		(pin "CH_R_OUT" input
+			(at 62.865 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54ded98b-9498-439e-a08e-279163d3d230")
 		)
 		(instances
 			(project "ethercat-test"
